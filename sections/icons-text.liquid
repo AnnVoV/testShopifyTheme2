@@ -1,0 +1,22 @@
+<h3 class="center">{{section.settings.heading}}</h3>
+<div class="center">
+  {{section.settings.description}}
+</div> 
+{% schema %}
+  {
+    "name": "Icons With Text Above",
+    "settings": [
+		{
+          "type": "text",
+          "label": "your headline for section",
+          "id": "heading"
+		}, 
+		{
+          "type": "richtext",
+          "label": "your desription",
+          "id": "description"
+		}
+    ]
+  }
+
+{% endschema %}
